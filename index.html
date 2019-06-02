@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Money Exchanger</title>
+    <style media="screen">
+      body {
+        background: url(https://assets-cdn.reedsy.com/discovery/packs/discovery-ui/assets/featured-2315d004b4a1bf8b9020f9ffcda47a17.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0px;
+      }
+      video {
+
+      }
+      .change {
+        float: right;
+        margin: 20px;
+        width: 600px;
+        padding: 10px;
+        background: #fcf4d5;
+        border-radius: 7px;
+      }
+      table th {
+        color: #ba9b00;
+        font-family: sans-serif;
+        font-size: 19px;
+        text-align: center;
+        width: 33%;
+      }
+      #one, #five, #ten {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      button {
+        padding: 5px 15px !important;
+        border: none;
+        background: #b1d341;
+        width: 67px;
+        color: #fff;
+        font-size: 15px;
+        outline: none;
+      }
+      .last {
+        background: #dab500;
+        padding: 5px 5px!important;
+        font-size: 12px;
+      }
+      button:hover {
+        background: #9cc02d;
+      }
+      button:focus {
+        background: #dab500;
+      }
+
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="dist/build.js"></script>
+
+</head>
+<body>
+      <div class="change">
+        <table style="width:100%">
+          <tr>
+            <th>Birlik</th>
+            <th>Beşlik</th>
+            <th>Onluk</th>
+          </tr>
+          <tr>
+            <td><div id="one"></div></td>
+            <td><div id="five"></div></td>
+            <td><div id="ten"></div></td>
+          </tr>
+        </table>
+      </div>
+</body>
+</html>
